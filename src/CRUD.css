@@ -1,0 +1,108 @@
+
+body{
+    color: black;
+}
+
+.addForm{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    border-radius: 8px;
+    padding: 5px 5px 5px 10px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px 5px 10px;
+}
+
+.btn{
+    background: transparent;
+    border: transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.icond{
+    color: #ff0000;
+}
+
+.iconu{
+    color: #0000ff;
+}
+
+.icone{
+    color: #008000;
+}
+
+.empty{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.list_table{
+    border: 1px solid black;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin: 3px;
+    padding: 10px;
+    width: fit-content;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list_table:hover{
+    box-shadow: 3px 3px 10px;
+
+}
+
+.list_element{
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.elements{
+    width: fit-content;
+    font-weight: bold;
+}
+
+.element{
+    font-weight: 100;
+}
+
+
+  
